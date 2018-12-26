@@ -1,0 +1,287 @@
+/*NAVIGATIE*/
+.nav{
+    background-color: #1A2B43;
+    font-family: 'PT sans';  
+    height: 4em; 
+    margin-top: -2em;
+    margin-bottom: 2em;
+    justify-content: center;
+    font-size: 15px;
+}
+
+a.nav-link{
+    color: white;
+    align-self: center;
+    font-family: 'PT sans';
+}
+
+.active{
+    color: #1A2B43;
+    height: 3.7em;
+    margin-top: 1em;
+    font-weight: bold;
+    
+}
+
+li a:hover{
+    color: white;
+    height: 3.7em;
+    margin-top: 0.3em;
+
+    border-color: #434F60;
+    
+}
+
+/*BUTTONS*/
+
+.btn{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10pt;
+    margin-bottom: 1em;
+    border-radius: 0%
+}
+
+.btn-dark{
+    background-color: #1A2B43;
+}
+
+.btn:hover{
+    background-color: rgb(54, 67, 87)
+}
+
+/*HEADINGS*/
+
+h1{
+    font-family: 'PT sans';
+    font-size: 20pt;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+h2{
+    font-family: 'PT sans';
+    font-size: 16pt;
+}
+
+h3{
+    font-family: 'PT sans';
+    font-size: 13pt;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: #1A2B43;
+}
+
+h4{
+    font-family: 'PT sans';
+    font-size: 13pt;
+    color: #1A2B43;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+p{
+    font-family: 'PT sans';
+    font-size: 11pt;
+}
+
+/*SPECIFIEK ONCOLOGY-PAGINA*/
+.card{
+    border-radius: 0%
+}
+
+.LBdokter{
+    background-color: #E3E7EC;
+    padding-right:-6em;
+    margin-left: -2em;
+    width: 100px
+}
+
+.LB{
+    background-color: #E3E7EC;
+}
+
+.B{
+    background-color: #1A2B43;
+}
+
+.cardB{
+    background-color: #1A2B43;
+    border: none;
+    color: white;
+}
+
+.dokter{
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.dokter2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.dr{
+    font-family: 'PT sans';
+    font-size: 10pt;
+}
+
+.social{
+    width: 1em;
+    height: 1em;
+    margin-left: 0.5em;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: #E3E7EC;
+}
+
+.volg{
+    margin-left: 1.3em;
+}
+
+/*specifiek ons project*/
+.quote1{
+    background-color: #1A2B43;
+    color: white;
+    margin-bottom: 1em;
+    padding: 2em;
+    margin-left: -0.5em;
+    margin-right: 0.5em;
+}
+
+.quote2{
+    background-color: #1A2B43;
+    color: white;
+    margin-bottom: 1em;
+    padding: 2em;
+    margin-left: 0.5em;
+    margin-right: -0.5em;
+}
+
+.whitename{
+    color: #E3E7EC;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.project{
+    background-color: #E3E7EC;
+    border-color: #E3E7EC;
+}
+/*jumbotron*/
+.jumbotron-fluid{
+    position: relative;
+}
+
+.jumbotron-fluid .btn{
+    position: absolute;
+    top: 75%;
+    left: 27em;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:white;
+    color: #1A2B43;
+    font-family: 'PT sans';
+    padding-top: 11px;
+    font-size: 14px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    border-radius:0%;
+    height: 3em;
+    
+}
+
+/*specifiek angiogenese*/
+.angiogeneselinks{
+    background-color: #E3E7EC;
+    margin-bottom: 1em;
+    padding: -0.5em;
+    margin-left: -0.5em;
+    margin-right: 0.5em;
+}
+
+.angiogeneserechts{
+    background-color: #E3E7EC;
+    margin-bottom: 1em;
+    padding: -0.5em;
+    margin-left: 0.5em;
+    margin-right: -0.5em;
+    
+}
+
+.angiogenese{
+    background-color: #E3E7EC;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+}
+
+.angiogeneseproces{
+    margin-top: 3em;
+
+}
+
+.fotoang1{
+    margin-left: -0.75em;
+    margin-right: 0.6em;
+    width: 18.2em;
+    margin-bottom: 0.4em;
+}
+
+.fotoang2{
+    margin-left: 0.5em;
+    margin-right:0.5em;
+    width: 18.2em;
+    margin-bottom: 0.4em;
+}
+
+.fotoang3{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 18.2em;
+    margin-bottom: 0.4em;
+}
+
+.fotoang4{
+    margin-right: -0.7em;
+    margin-left: 0.5em;
+    width: 18.2em;
+    margin-bottom: 0.4em;
+}
+/*specifiek steun*/
+hr{
+    color: #1A2B43;
+    align-content: center;
+    width: 2px;
+}
+
+.titelsteun{
+    margin-top: -2em; 
+    margin-bottom: 3em;
+    align-content: center;  
+}
+
+.dongast{
+    margin-top: 3em;
+}
+
+/*specifiek doneer*/
+.klein{
+    font-size: 9pt;
+}
+
+h5{
+    font-size: 10pt;
+}
+
+.doneer{
+    height: 3em;
+    margin-bottom: 6em;
+}
