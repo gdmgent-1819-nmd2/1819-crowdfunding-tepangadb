@@ -20,9 +20,7 @@
     cursor: pointer;
     border-radius:0%;
     height: 3em;
-    
 }
-
 
 /*NAVIGATIE*/
 .nav{
@@ -44,8 +42,18 @@ a.nav-link{
 }
 
 li a:hover{
-   
         color: #53a7ea;
+}
+
+@media (max-width: 575.98px) {
+    .nav{
+        height: 4em;
+    }
+    a.nav-link{
+        width: 6em;
+        vertical-align: center;
+        font-size: 14px;
+    }
 }
 
 /*BUTTONS*/
@@ -70,7 +78,6 @@ li a:hover{
 .btn:hover{
         box-shadow: inset 0 0 0 25px #53a7ea;
 }
-
 
 
 /*HEADINGS*/
@@ -122,11 +129,6 @@ p{
     background-color: #E3E7EC;
     padding-right:-6em;
     margin-left: -2em;
-    width: 100px
-}
-
-.LB{
-    background-color: #E3E7EC;
 }
 
 .B{
@@ -163,6 +165,7 @@ p{
 a{
     color: white;
 }
+
 a:hover{
     color: #E3E7EC;
 }
@@ -171,6 +174,29 @@ a:hover{
     margin-left: 1.3em;
 }
 
+@media (max-width: 575.98px) {
+    .afbdok{
+        width: 20em;
+    }
+    .LBdokter{ /*lichtblauwe achtergrondkleur bij de info omtrent de dokter*/ 
+        margin: 1em;
+    }
+    h3{
+        font-size: 14px;
+        margin-bottom: 1em;
+    }
+    p.dr{
+        font-size: 10px;
+        margin-bottom: 0.5em;
+    }
+    .sponsorklein{ /*slaat op de sponsorkaart op smartphone*/
+        border-style: solid;
+        border-width: 1px;
+        margin-bottom: 1em;
+        padding-top: 0.5em;
+        border-color: #E3E7EC
+    }
+}
 
 /*SPECIFIEK PROJECT*/
 .quote1{ /*onderaan de pagina staan twee quotes, deze slaat op de linkerquote*/
@@ -204,7 +230,22 @@ a:hover{
     border-color: #E3E7EC;
 }
 
-
+@media (max-width: 575.98px) {
+    .quote1{
+        margin: 1em;
+        margin-top: -1em;
+        width: 100%;
+        padding-left: 2em;
+        padding-bottom: 0.5em;
+    }
+    .quote2{
+        margin: 1em;
+        margin-top: 0em;
+        width: 100%;
+        padding-right: 2em;
+        padding-bottom: 0.5em;
+    }
+}
 /*SPECIFIEK ANGIOGENESE*/
 
 .angiogeneselinks{ /*gaat over de deeltjes tekst die links op de pagina staan*/
@@ -222,8 +263,7 @@ a:hover{
     padding: -0.5em;
     margin-left: 0.5em;
     margin-right: -0.5em;
-    padding-bottom: 0.5em;
-    
+    padding-bottom: 0.5em; 
 }
 
 .angiogenese{ /*slaat op het deeltje tekst onderaan die de volledige breedte van de pagina inneemt*/
@@ -235,7 +275,6 @@ a:hover{
 
 .angiogeneseproces{
     margin-top: 3em;
-
 }
 
 .fotoang1{ /*eerste foto bovenaan*/
@@ -264,6 +303,45 @@ a:hover{
     margin-left: 0.5em;
     width: 18.2em;
     margin-bottom: 0.4em;
+}
+
+@media (max-width: 575.98px) {
+    .fotoang1{
+        margin: 0em;
+        margin-bottom: 0.2em;
+        width: 22.3em;
+    }
+    .fotoang2{
+        margin: 0em;
+        margin-bottom: 0.2em;
+        width: 22.3em;
+    }
+    .fotoang3{
+        margin: 0em;
+        margin-bottom: 0.2em;
+        width: 22.3em;
+    }
+    .fotoang4{
+        margin-left: -0.6em;;
+        margin-top: 0em;
+        margin-bottom: 0.2em;
+        width: 22.3em;
+    }
+    .angiogeneselinks{ /*gaat over de deeltjes tekst die links op de pagina staan*/
+        margin: 1em;
+        margin-bottom: 0.7em;
+        margin-top: 0em;
+    }
+    .angiogeneserechts{ /*gaat over de deeltjes tekst die rechts op de pagina staan*/
+        margin: 1em;
+        margin-bottom: 0.7em;
+        margin-top: 0em;
+    }
+    .angiogenese{ /*slaat op het deeltje tekst onderaan die de volledige breedte van de pagina inneemt*/
+    margin-left: -0.9em;
+    margin-right: -0.9em;
+    padding-bottom: 0.5em;
+    }
 }
 
 /*SPECIFIEK STEUN*/
@@ -309,3 +387,28 @@ h5{
 .fadeInDown{
     animation-duration: 2s;
   }
+
+@media (max-width: 575.98px) {
+    .doneer{
+        margin-bottom: 2em;
+    }
+    .dongast{
+        margin-top: 1em;
+    }
+    .login{
+        margin-left: -0.5em;
+    }
+}
+
+/*FOOTER KLEIN*/ 
+@media (max-width: 575.98px) {  
+    a.row{ /*HOORT BIJ DE FOOTER*/
+        font-size: 10px;
+        margin-left: 5.5em;
+    }
+    .logo{
+        margin-top: 1em;
+        width: 10em;
+    } 
+
+}
